@@ -11,7 +11,7 @@ function TaskList() {
   }
 
   return (
-    <div className="grid grid-cols-4 gap-2">
+    <div className="grid grid-auto gap-3 mx-80">
       {
         tasks.map(task => (
           <TaskCard
