@@ -7,10 +7,12 @@ function App() {
   const [tasks, setTasks] = useState([])
 
   return (
-    <>
-      <TaskForm />
-      <TaskList />
-    </>
+    <main className='bg-gray-900 h-screen'>
+      <div className='container mx-auto p-10'>
+        <TaskForm />
+        <TaskList />
+      </div>
+    </main>
   );
 }
 
